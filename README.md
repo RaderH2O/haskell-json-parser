@@ -5,16 +5,24 @@ import JsonParser
 ```
 <br />
 Then , you can either use the<br />
-```parseFile filePath jsonValue```
+```
+parseFile filePath jsonValue
+```
 <br />
 method which has a type of <br />
-```parseFile :: String -> Parser a -> IO (Maybe a)```
+```
+parseFile :: String -> Parser a -> IO (Maybe a)
+```
 <br />
 or you can do<br />
-```runParser jsonValue "json code ..."```
+```
+runParser jsonValue "json code ..."
+```
 <br />
 which has type of<br />
-```runParser :: Parser a -> String -> Maybe (String a)```
+```
+runParser :: Parser a -> String -> Maybe (String a)
+```
 <br />
 
 # Types :
@@ -35,6 +43,8 @@ which has type of<br />
 
 # Running a parser :
 Just do<br />
-```runParser parser stringJson```
+```
+runParser parser stringJson
+```
 <br />
 (parser is a placeholder)
