@@ -4,20 +4,28 @@ First of all , import it using :<br />
 import JsonParser
 ```
 <br />
+* * *
+<br />
 Then , you can either use the :<br />
 ```
 parseFile filePath jsonValue
 ```
+<br />
+* * *
 <br />
 method which has a type of :<br />
 ```
 parseFile :: String -> Parser a -> IO (Maybe a)
 ```
 <br />
+* * *
+<br />
 or you can do :<br />
 ```
 runParser jsonValue "json code ..."
 ```
+<br />
+* * *
 <br />
 which has type of :<br />
 ```
