@@ -1,4 +1,4 @@
-module Main where
+module JsonParser where
 -- https://www.youtube.com/watch?v=N9RUqGYuGfw
 import Data.Char
 import Control.Applicative
@@ -99,6 +99,3 @@ parseFile :: FilePath -> Parser a -> IO (Maybe a)
 parseFile filename parser = do
   input <- readFile filename
   return (snd <$> runParser parser input)
-
-main :: IO ()
-main = undefined
