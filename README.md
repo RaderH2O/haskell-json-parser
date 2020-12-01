@@ -7,33 +7,16 @@ import JsonParser
 ___
 <br />
 Then , you can either use the :<br />
-```<br />
 parseFile filePath jsonValue
 <br />
-```
-<br />
-___
-<br />
 method which has a type of :<br />
-```
 parseFile :: String -> Parser a -> IO (Maybe a)
-```
-<br />
-___
 <br />
 or you can do :<br />
-```
 runParser jsonValue "json code ..."
-```
-<br />
-___
 <br />
 which has type of :<br />
-```
 runParser :: Parser a -> String -> Maybe (String a)
-```
-<br />
-
 # Types :
 `JsonNull` = JSON Null value<br />
 `JsonBool` = JSON Boolean value (true/false)<br />
