@@ -16,6 +16,7 @@ runParser jsonValue "json code ..."
 which has type of :<br />
 runParser :: Parser a -> String -> Maybe (String a)<br />
 # Types :
+<br \>
 `JsonNull` = JSON Null value<br />
 `JsonBool` = JSON Boolean value (true/false)<br />
 `JsonNumber` = JSON Number value (Currently doesn't support floats)<br />
