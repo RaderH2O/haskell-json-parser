@@ -4,14 +4,16 @@ First of all , import it using :<br />
 import JsonParser
 ```
 <br />
-Then , you can either use the
+Then , you can either use the<br />
 ```parseFile filePath jsonValue```
-method which has a type of 
+<br />
+method which has a type of <br />
 ```parseFile :: String -> Parser a -> IO (Maybe a)```
 <br />
-or you can do
+or you can do<br />
 ```runParser jsonValue "json code ..."```
-which has type of
+<br />
+which has type of<br />
 ```runParser :: Parser a -> String -> Maybe (String a)```
 <br />
 
@@ -32,6 +34,7 @@ which has type of
 `jsonObject` = Parses JSON Objects ( { "exampleKey" : 1, "key2" : "value" } )<br />
 
 # Running a parser :
-Just do
+Just do<br />
 ```runParser parser stringJson```
+<br />
 (parser is a placeholder)
