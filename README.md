@@ -4,8 +4,6 @@ First of all , import it using :<br />
 import JsonParser
 ```
 <br />
-___
-<br />
 Then , you can either use the :<br />
 parseFile filePath jsonValue
 <br />
@@ -16,7 +14,7 @@ or you can do :<br />
 runParser jsonValue "json code ..."
 <br />
 which has type of :<br />
-runParser :: Parser a -> String -> Maybe (String a)
+runParser :: Parser a -> String -> Maybe (String a)<br />
 # Types :
 `JsonNull` = JSON Null value<br />
 `JsonBool` = JSON Boolean value (true/false)<br />
