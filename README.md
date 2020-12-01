@@ -7,7 +7,7 @@ import JsonParser
 ___
 <br />
 Then , you can either use the :<br />
-```
+```<br />
 parseFile filePath jsonValue
 ```
 <br />
