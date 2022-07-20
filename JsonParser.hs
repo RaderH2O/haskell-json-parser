@@ -1,5 +1,4 @@
 module JsonParser where
--- https://www.youtube.com/watch?v=N9RUqGYuGfw
 import Data.Char
 import Control.Applicative
 
